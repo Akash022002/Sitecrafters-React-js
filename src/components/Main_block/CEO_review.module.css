@@ -1,0 +1,156 @@
+.review{
+    height:4350px;
+    background-color: #1b004e;
+}
+.dot{
+    display: flex;
+    width: auto;
+    color: #8ff8e5;
+    padding-left: 200px;
+    padding-top: 7px;
+}
+.dot li{
+    list-style: none;
+    column-gap: 50px;
+    padding-left: 30px;
+}
+.dot2{
+    display: flex;
+    width: auto;
+    color: #8ff8e5;
+    padding-left: 200px;
+    padding-top: 150px;
+}
+.dot2 li{
+    list-style: none;
+    column-gap: 40px;
+    padding-left: 30px;
+}
+.dot1{
+     
+    width: 30px;
+    color: #8ff8e5;
+    padding-left:0px;
+    padding-top: 0px;
+    margin-right: 20px;
+}
+.dot1 li{
+    list-style: none;
+    column-gap: 0px;
+    padding-left: 30px;
+}
+.dot3{
+     
+    width: auto;
+    color: #8ff8e5;
+    padding-left: 120px;
+    padding-top: 0px;
+    margin-right: 0px;
+}
+.dot3 li{
+    list-style: none;
+    column-gap: 40px;
+    padding-left: 30px;
+}
+.post{
+    padding-top: 10px;
+    margin-left: 63px;
+    padding-left: 17px;
+    width: auto;
+    display: flex;
+}
+.postcard{
+    background-color: #8ff8e5;
+    height: 350px;
+    width: 890px;
+    border-radius: 0px 80px 80px 80px;
+    padding-top: 80px;
+    padding-left: 00px;
+}
+.postcard p{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+    font-family:cursive;
+}
+.postcard li{
+    list-style: none;
+    padding-left: 400px;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 30px;
+    color: rgb(12, 12, 157);
+}
+.postcard ul{
+    list-style: none;
+    padding-left: 560px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 0px;
+    color: rgb(12, 12, 157);
+}
+.details{
+    padding-top: 150px;
+}
+
+.contmain{
+    display: flex;
+}
+.container1{
+    width: 600px;
+    height: 980px;
+    margin-top: 50px;
+    margin-left:230px;
+    color: white;
+}
+.container1 p{
+    list-style: none;
+    font-size: 1.55rem;
+    font-family: "Styrene A Regular";
+}
+.cont1{
+    padding-top: 150px;
+}
+.cont1 p{
+    padding-bottom: 20px;
+}
+.cont1 li{
+    font-size: 4rem;
+    list-style: none;
+    font-weight: 700;
+}
+.cont2{
+    padding-top: 30px;
+}
+.cont2 ul{
+    font-size: 1.75rem;
+    padding-bottom: 30px;
+}
+.cont2 li{
+    list-style: none;
+    font-size: 1.30rem;
+    padding-bottom: 13px;
+    padding-left: 20px;
+}
+.cont2 p{
+    padding-top: 30px;
+}
+.contimg1{
+    margin-top: 50px;
+}
+.contimg1 img{
+    height: 450px;
+    width: 450px;
+    padding-top: 220px;
+    padding-left: 100px;
+}
+.link{
+    padding-top: 30px;
+}
+.link a{
+    padding-top: 50px;
+    color:#25f5ce;
+    text-decoration: none;
+}

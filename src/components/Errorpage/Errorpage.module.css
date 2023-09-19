@@ -1,0 +1,76 @@
+.errorpage{
+    height: 400px;
+    width: auto;
+    background-color: antiquewhite;
+}
+
+/* Here the 404 custom page css code */
+
+
+/*======================
+    404 page
+=======================*/
+
+
+.page_404{ 
+    padding:40px 0; 
+    background:#fff; 
+    font-family: 'Arvo', serif;
+}
+.textcenter{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.page_404  img{ 
+    width:100%;
+}
+.imgmain{
+    margin-top: 0px;
+}
+.four_zero_four_bg{
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.four_zero_four_bg h1{
+    font-size:80px;
+}
+ 
+.four_zero_four_bg h3{
+    font-size:80px;
+}
+.link_404{			 
+	color: #fff;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+.contant_box_404{ 
+    margin-top:50px;
+    text-align: center;
+}
+.contant_box_404 p{
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+.contant_box_404 h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.link_404{
+    text-decoration: none;
+    border: none;
+    border-radius: 27px;
+    list-style: none;
+    height: 50px;
+    width: 150px;
+}
+.link_404 a{
+    color: #fff;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+}

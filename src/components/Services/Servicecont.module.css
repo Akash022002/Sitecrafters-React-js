@@ -1,0 +1,120 @@
+.contservice{
+    height: 200px;
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 90px;
+}
+.carditem1{
+    width: 300px;
+    height: 270px;
+    border-radius: 12px;
+    background-color: #161718;
+    margin-left: 25px;
+    list-style: none;
+}
+.carditem1 li{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #27a377;
+    cursor: pointer;
+}
+.carditem1 p{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.cardli1{
+    padding-left: 25px;
+}
+
+.cardprice{
+    height: 300px;
+    width: auto;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top:200px;
+    list-style: none;
+
+}
+.tag{
+    display: flex;
+}
+.tag li{
+    color: #adb6ad;
+    font-size: 1.20rem;
+    font-weight: 500;
+}
+.tag p{
+    color: #27a377;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.pricetag{
+    margin-top: 25px;
+    font-size: 1.95rem;
+    font-weight: 500;
+}
+.innerprice{
+    height: 200px;
+    background-color: none;
+    margin-top: 50px;
+    display: flex;
+}
+.pricename{
+    width: 590px;
+    display: flex;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+.pricename li{
+    color: #adb6ad;
+    margin-left: 0px;
+    margin-right: 305px;
+    
+}
+.cardinner1{
+    width: 600px;
+}
+.cardinner1 ul{
+    margin-top: 10px;
+}
+.cardinner2{
+    margin-left: 25px;
+}
+.cardinner2 ul{
+    margin-top: 10px;
+}
+.reviewser{
+    margin-top: 220px;
+    margin-left: 170px;
+    margin-right: 170px;
+    height: 400px;
+}
+.mainreview{
+    display: flex;
+    list-style: none;
+}
+.mainreview li{
+    color: #adb6ad;
+    font-size: 1.15rem;
+}
+.mainreview ul{
+    color: #27a377;
+    margin-left: 20px;
+}
+.nexttitle{
+    margin-top: 10px;
+    font-size: 2.15rem;
+    font-weight: 700;
+}
+.carditem1 img{
+    height: 70px;
+    width: 70px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 110px
+}

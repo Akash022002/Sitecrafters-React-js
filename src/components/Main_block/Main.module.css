@@ -1,0 +1,54 @@
+*{
+    margin: 10pzpx;
+    padding: 0px;
+}
+.container{
+    background-color: #e7e2f3;
+    height: 700px;
+    
+}
+.cont{
+    padding-top: 100px;
+}
+.sentence{
+    justify-content: center;
+    list-style: none;
+}
+.sentence li{
+    margin-left: 550px;
+    font-size: 60px;
+    color: rgb(50, 10, 90);
+    font-family: "Styrene A Bold";
+}
+.sentence1 li{
+    font-size: 60px;
+    margin-left: 330px;
+    list-style: none;
+    color: rgb(50, 10, 90);
+    font-family: "Styrene A Bold";
+}
+.sentence2 li{
+    font-size: 60px;
+    background-image: url('https://cdn-aahbe.nitrocdn.com/atRjhaAsMHbPaZMOukHscOVOXfGAsiqT/assets/images/optimized/rev-29c456d/asset/img/svg/circle-magical.svg');
+    background-repeat: no-repeat;
+    background-size: 410px;
+    margin-left: 530px;
+    list-style: none;
+    color: rgb(123, 11, 234);
+    font-family: 'Marck Script', cursive;
+}
+.sentence3{
+    padding-left: 480px;
+    padding-top: 40px;
+    font-size: 1.25rem;
+    font-family: "Styrene A Regular";
+    list-style: none;
+}
+.arrow{
+    padding-left: 700px;
+    padding-top: 80px;
+}
+.bottomimg img{
+    margin-left: 92px;
+    margin-top: 70px;
+}

@@ -1,0 +1,91 @@
+.sermain{
+    background-color: black;
+    height: 1745px;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans+Georgian&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.mainpage{
+    background-color: none;
+    height: 100x;
+}
+.navbar{
+    color: blue;
+    height: 40px;
+    background-color: none;
+}
+.tag{
+    background-color: none;
+}
+.word{
+    color: red;
+}
+
+/* From here the new code was stared for the nav bar of the sitecrafters */
+.nav{
+    width:auto;
+    display: flex;
+    position: fixed;
+    top: 0;
+     
+}
+.logoname{
+    color: white;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Signika', sans-serif;
+    margin: 10px 10px 10px 10px;
+    
+}
+.logoname li{
+    padding-top: px;
+    padding-left: 20px;
+}
+.navcont{
+    display: flex;
+    list-style: none;
+    justify-content:none;
+    margin-left: 360px;
+    color: white;
+}
+.navcont a{
+    margin-left: 23px;
+    justify-content: center;
+    margin-top: 28px ;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.sign{
+    padding-top: 28px;
+    list-style: none;
+    padding-left: 140px;
+    font-style: bold;
+}
+.sign a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+.navbutton button{
+    background-color:#27a777;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    padding-top: 0px;
+    margin-left: 30px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,135 @@
+.Insidemain{
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+}
+.Insideli{
+    list-style: none;
+}
+.Insideli li{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 400px;
+    padding-top: 100px;
+    color: rgb(9, 15, 100);
+    font-family:'Times New Roman', Times, serif
+}
+.Insideli p{
+    font-size: 2.45rem;
+    font-weight: 400;
+    color: rgb(9, 15, 100);
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 350px;
+    padding-top: 30px;
+}
+.Insidecont{
+    margin-top: 100px;
+    height: 500px;
+    width: auto;
+    background-color: aliceblue;
+}
+.containermain1{
+    display: flex;
+}
+.container1{
+    height: 120px;
+    margin-top: 50px;
+    border-radius: 25px ;
+    width: 500px;
+    display: flex;
+    box-shadow: 0px 0px 2px 1px black;
+    background-color: #fff;
+    margin-left: 100px;
+}
+.container1 img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container1 ul{
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #350866;
+}
+.link3{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.link3 a{
+    padding-top: 0px;
+    color:#25f5ce;
+    font-weight: 900;
+    font-size: 2.50rem;
+    text-decoration: none;
+}
+.link4{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.link4 a{
+    padding-top: 0px;
+    color:#25f5ce;
+    font-weight: 900;
+    font-size: 2.50rem;
+    text-decoration: none;
+}
+.link5{
+    padding-top: 30px;
+    padding-left: 0px;
+}
+.link5 a{
+    padding-top: 0px;
+    color:#25f5ce;
+    font-weight: 900;
+    font-size: 2.50rem;
+    text-decoration: none;
+}
+.link6{
+    padding-top: 30px;
+    padding-left: 75px;
+}
+.link6 a{
+    padding-top: 0px;
+    color:#25f5ce;
+    font-weight: 900;
+    font-size: 2.50rem;
+    text-decoration: none;
+}
+.link7{
+    padding-top: 30px;
+    padding-left: 145px;
+}
+.link7 a{
+    padding-top: 0px;
+    color:#25f5ce;
+    font-weight: 900;
+    font-size: 2.50rem;
+    text-decoration: none;
+}
+.link8{
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.link8 a{
+    padding-top: 0px;
+    color:#25f5ce;
+    font-weight: 900;
+    font-size: 2.50rem;
+    text-decoration: none;
+}
+.btnser{
+    height: 60px;
+    width: 260px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color:#0e4dec;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-left: 515px;
+    border: none;
+    margin-top:40px;
+    outline: none;
+}

@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Noto+Sans+Georgian&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.mainpage{
+    background-color: #e7e2f3;
+}
+.navbar{
+    color: blue;
+    height: 40px;
+    background-color: #e7e2f3;
+}
+.tag{
+    background-color: black;
+}
+.word{
+    color: red;
+}
+
+/* From here the new code was stared for the nav bar of the sitecrafters */
+.nav{
+    width:auto;
+    display: flex;
+    
+     
+}
+.logoname{
+    color: blueviolet;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Signika', sans-serif;
+    margin: 10px 10px 10px 10px;
+    
+}
+.logoname li{
+    padding-top: px;
+    padding-left: 20px;
+}
+.navcont{
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+    justify-content:none;
+    
+}
+
+.navcont a{
+    margin-left: 0px;
+    justify-content: center;
+    margin-top: 28px ;
+
+    font-style: italic;
+    width: 100px;
+    cursor: pointer;
+    color: rgb(16, 16, 103);
+    text-align: center;
+    text-decoration: none;
+}
+.sign{
+    padding-top: 28px;
+    list-style: none;
+    padding-left: 140px;
+    text-decoration: none;
+    font-style: bold;
+}
+.sign a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(16, 16, 103);
+}
+.navbutton button{
+    background-color:#3800a2;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    padding-top: 0px;
+    margin-left: 30px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+}

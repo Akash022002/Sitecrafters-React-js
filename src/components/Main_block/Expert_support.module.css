@@ -1,0 +1,26 @@
+.contmain2{
+    display: flex;
+}
+.contimg1{
+    width:370px;
+    margin-left: 290px;
+    padding-top: 150px;
+}
+.continfo1{
+    width: 700px;
+    height: 700px;
+    color: #fff;
+}
+.continfo1 p{
+    list-style: none;
+    font-size: 1.55rem;
+    font-weight: 100;
+    font-family: "Styrene A Regular";
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.contli{
+    list-style: none;
+    font-size: 4rem;
+    font-weight: 700;
+}

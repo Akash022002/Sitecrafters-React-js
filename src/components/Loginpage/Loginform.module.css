@@ -1,0 +1,131 @@
+/* From here the main code for the login page was started */
+
+.body{
+    width: auto;
+    height: 745px;  
+}
+.loginform1{
+    font-family: 'Droid Serif', serif;
+    background-color: black;
+    background-size: cover;
+    opacity: 1; 
+}
+
+.label1{
+    color: white;
+}
+
+.containerlogin {
+    background: rgba(3, 3, 55, 0.5);
+    width: 18.75rem;
+    height: 28rem;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+.headerlogin {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3rem;
+    height: 3rem;
+    background: rgba(3, 3, 55, 0.7);
+    font-size: 1.4rem;
+    color: #d3d3d3;
+}
+
+.fieldset {
+    border: 0px;
+    text-align: center;
+    color: #fff;
+}
+.fieldset a{
+    list-style:none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.fieldset input[type="submit"] {
+    background: rgba(235, 30, 54, 1);
+    border: 0px;
+    display: block;
+    width: 70%;
+    margin-left: 45px;
+    color: white;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.fieldset input {
+    background: transparent;
+    border: 0px;
+    border-left: 4px solid;
+    border-color: #FF0000;
+    padding: 10px;
+    color: white;
+}
+
+.fieldset input[type="text"]:focus,
+.fieldset input[type="email"]:focus,
+.fieldset input[type="password"]:focus {
+    outline: 0;
+    background: rgba(235, 30, 54, 0.3);
+    border-radius: 1.2rem;
+    border-color: transparent;
+}
+
+::placeholder {
+    color: #d3d3d3;
+}
+
+/*Media queries */
+
+@media all and (min-width: 481px) and (max-width: 568px) {
+    .containerlogin {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+    @media all and (min-width: 569px) and (max-width: 768px) {
+        .containerlogin {
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+    }
+
+    /* Footer section was started */
+    .aboutlastcont{
+        height: 100px;
+        background-color:none;
+        color: white;
+    }
+    .lastmain{
+        border-top: 1px solid rgba(255,255,255,.2);
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+    .firstfooter{
+        display: flex;
+        margin-top: 25px;
+        list-style: none;
+        justify-content: center;
+    }
+    .secfooter{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    .secfooter a{
+        text-decoration: none;
+        color:#27a776;
+        padding-left: 5px;
+    }
+    .copyright{
+        font-size: 1.05rem;
+    }
+    .reserve{
+        padding-left: 10px;
+    }

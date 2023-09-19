@@ -1,0 +1,42 @@
+.contmain4{
+    display: flex;
+    height: 650px;
+}
+.contimg5{
+    width: 400px;
+    height: 350px;
+    padding-left: 275px;
+    padding-top: 70px;
+}
+.continfo1{
+    height: 700px;
+    width: 600px;
+    color: #fff;
+}
+.contli3{
+    font-size: 1.55rem;
+    font-weight: 500px;
+    list-style: none;
+    padding-bottom: 30px;
+}
+.contdesc3 li{
+    list-style: none;
+    font-size: 4rem;
+    font-weight: 600px;
+}
+.contdesc3 p{
+    font-size: 1.35rem;
+    font-weight: 500px;
+    list-style: none;
+    padding-top: 35px;
+}
+.link2{
+    padding-top: 30px;
+}
+.link2 a{
+    padding-top: 50px;
+    color:#25f5ce;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+}

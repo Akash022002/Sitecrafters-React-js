@@ -1,0 +1,32 @@
+.main{
+    padding-top: 140px;
+    margin-left: 450px;
+    margin-right: 450px;
+    list-style: none;
+}
+.list1 li{
+    font-size: 2.95rem;
+    font-weight: 500;
+    margin-left: 220px;
+    margin-bottom: 40px;
+}
+.para1{
+    padding-left: 10px;
+}
+.para2{
+    padding-left: 28px;
+}
+.list1 button{
+    background-color: #27a776;
+    color: white;
+    height: 60px;
+    width: 230px;
+    font-size: 1.05rem;
+    font-family: "inter";
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 183px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

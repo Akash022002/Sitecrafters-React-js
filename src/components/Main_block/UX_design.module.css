@@ -1,0 +1,39 @@
+.contmain3{
+    display: flex;
+}
+.continside{
+    width: 500px;
+    height: 620px;
+    padding-left: 230px;
+    color: #fff;
+}
+.contli2 li{
+    list-style: none;
+    font-size: 1.55rem;
+    padding-bottom: 25px;
+}
+.contdesc{
+    list-style: none;
+}
+.contdesc li{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.contdesc p{
+    font-size: 1.35rem;
+    padding-top: 45px;
+}
+.contimg3 img{
+    padding-left: 200px;
+    padding-top: 70px;
+}
+.link1{
+    padding-top: 35px;
+}
+.link1 a{
+    padding-top: 50px;
+    color:#25f5ce;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-decoration: none;
+}

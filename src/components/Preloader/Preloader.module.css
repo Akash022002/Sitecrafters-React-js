@@ -1,0 +1,302 @@
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+/*.preloader {
+    display: flex;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+  }
+  
+  .preloader:before,
+  .preloader:after {
+    content: "";
+    background-color: var(--color-secondary);
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+    z-index: -1;
+  }
+  
+  .preloader:after {
+    left: auto;
+    right: 0;
+  }
+  
+  .preloader .line {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 1px;
+    height: 280px;
+    transition: all 0.8s ease 0s;
+  }
+  
+  .preloader .line:before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 0%;
+    transform: translateY(-50%);
+    animation: lineincrease 1000ms ease-in-out 0s forwards;
+  }
+  
+  .preloader .line:after {
+    content: "";
+    position: absolute;
+    background-color: #999;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    transform: translateY(-100%);
+    animation: linemove 1200ms linear 0s infinite;
+    animation-delay: 2000ms;
+  }
+  
+  .preloader.loaded .line {
+    opacity: 0;
+    height: 100% !important;
+  }
+  
+  .preloader.loaded .line:after {
+    opacity: 0;
+  }
+  
+  .preloader.loaded:before,
+  .preloader.loaded:after {
+    animation: preloaderfinish 300ms ease-in-out 500ms forwards;
+  }
+  
+  @keyframes lineincrease {
+    0% {
+      height: 0%;
+    }
+  
+    100% {
+      height: 100%;
+    }
+  }
+  
+  @keyframes linemove {
+    0% {
+      transform: translateY(200%);
+    }
+  
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  @keyframes preloaderfinish {
+    0% {
+      width: 5 0%;
+    }
+  
+    100% {
+      width: 0%;
+    }
+  }
+*/
+
+/* New css code for add the new pen in the contact us page */
+
+
+.container {
+	position: relative;
+	display: flex;
+	height: 200px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	-webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0005);
+}
+
+.loader {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	animation: animate 2s linear infinite;
+}
+
+.loader:nth-child(2),
+.loader:nth-child(4) {
+	filter: hue-rotate(290deg);
+	animation-delay: -1s;
+}
+
+@keyframes animate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loader:nth-child(1)::before,
+.loader:nth-child(2)::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(to top, transparent, rgba(0, 255, 249, .4));
+	background-size: 100px 180px;
+	background-repeat: no-repeat;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+
+i {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+	width: 20px;
+	height: 20px;
+	background: #00fff9;
+	border-radius: 50%;
+	z-index: 10;
+	box-shadow: 0 0 10px #00fff9,
+		0 0 20px #00fff9,
+		0 0 30px #00fff9,
+		0 0 40px #00fff9,
+		0 0 50px #00fff9,
+		0 0 60px #00fff9,
+		0 0 70px #00fff9,
+		0 0 80px #00fff9,
+		0 0 90px #00fff9,
+		0 0 100px #00fff9;
+}
+
+.loader span {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	background-color: #000;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+/*
+#preloader {
+  display: flex;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99999;
+}
+
+#preloader:before,
+#preloader:after {
+  content: "";
+  background-color: var(--color-secondary);
+  position: absolute;
+  inset: 0;
+  width: 50%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+
+#preloader:after {
+  left: auto;
+  right: 0;
+}
+
+#preloader .line {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  width: 1px;
+  height: 280px;
+  transition: all 0.8s ease 0s;
+}
+
+#preloader .line:before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 0%;
+  transform: translateY(-50%);
+  animation: lineincrease 1000ms ease-in-out 0s forwards;
+}
+
+#preloader .line:after {
+  content: "";
+  position: absolute;
+  background-color: #999;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  transform: translateY(-100%);
+  animation: linemove 1200ms linear 0s infinite;
+  animation-delay: 2000ms;
+}
+
+#preloader.loaded .line {
+  opacity: 0;
+  height: 100% !important;
+}
+
+#preloader.loaded .line:after {
+  opacity: 0;
+}
+
+#preloader.loaded:before,
+#preloader.loaded:after {
+  animation: preloaderfinish 300ms ease-in-out 500ms forwards;
+}
+
+@keyframes lineincrease {
+  0% {
+    height: 0%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes linemove {
+  0% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes preloaderfinish {
+  0% {
+    width: 5 0%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+*/

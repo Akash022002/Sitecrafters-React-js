@@ -1,0 +1,35 @@
+.aboutlastcont{
+    height: 100px;
+    background-color:black;
+    color: white;
+}
+.lastmain{
+    border-top: 1px solid rgba(255,255,255,.2);
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+.firstfooter{
+    display: flex;
+    margin-top: 25px;
+    list-style: none;
+    justify-content: center;
+}
+.secfooter{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.secfooter a{
+    text-decoration: none;
+    color:#27a776;
+    padding-left: 5px;
+}
+.copyright{
+    font-size: 1.05rem;
+}
+.reserve{
+    padding-left: 10px;
+}

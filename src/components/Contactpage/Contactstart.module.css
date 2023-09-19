@@ -1,0 +1,79 @@
+.contcontact{
+    padding-top: 150px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.contcontact ul{
+    font-size: 2.9rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.para1{
+    padding-left: 10px;
+}
+.para2{
+    padding-left: 28px;
+}
+.contentcont{
+    width: auto;
+    height: 100px;
+    background-color:none;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 70px;
+    display: flex;
+}
+.firstcard{
+    margin-left: 0px;
+    width: 250px;
+}
+.firstcard ul{
+    margin-bottom: 5px;
+    font-size: 1.45rem;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.5);
+}
+.firstcard1{
+    width: 250px;
+    margin-left: 10px;
+}
+.firstcard1 ul{
+    margin-bottom: 5px;
+    font-size: 1.45rem;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.5);
+}
+.firstcard2{
+    width: 250px;
+    margin-left: 10px;
+}
+.firstcard2 ul{
+    margin-bottom: 5px;
+    font-size: 1.45rem;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 0.5);
+}
+.contdis{
+    display: flex;
+}
+.contdis img{
+    height: 60px;
+    width: 70px;
+}
+.contdis1{
+    display: flex;
+    margin-left: 80px;
+}
+.contdis1 img{
+    height: 50px;
+    width: 60px;
+}
+.contdis2{
+    display: flex;
+    margin-left: 60px;
+}
+.contdis2 img{
+    height: 45px;
+    width: 55px;
+}

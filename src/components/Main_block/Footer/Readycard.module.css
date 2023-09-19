@@ -1,0 +1,74 @@
+.cardready{
+    height: 400px;
+    background-color: #3800a2;
+    margin: 0 auto;
+    margin-top: 0rem;
+    width: 1360px;
+    margin-right: 0px;
+    margin-left: 80px;
+    border-radius: 35px 0px 0px 0px;
+    display: flex;
+}
+.cardmain{
+    background-color: aliceblue;
+    list-style: none;
+    color: #fff;
+}
+.cardready li{
+    font-size: 3.25rem;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-left: 420px;
+    margin-bottom: 40px;
+}
+.cardready p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: 470px;
+}
+.cardreadyp{
+    padding-left: 35px;
+}
+.cardready button{
+    color: #3800a2;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1.8125rem;
+    margin-left: 515px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.showcontent{
+    padding-left: 50px;
+    margin-top: 130px;
+}
+.design{
+    color: #3800a2;
+    display: flex;
+    margin-left: 1239px;
+}
+.design li{
+    padding-left:15px;
+}
+.design1{
+    color: #3800a2;
+    display: flex;
+    margin-left: 1260px;
+}
+.design1 li{
+    padding-left: 15px;
+}
+.flex{
+    display: flex;
+}
+.design2{
+    color: #3800a2;
+    padding-left: 9px;
+}
+.design3{
+    color: #3800a2;
+    padding-left: 13px;
+}

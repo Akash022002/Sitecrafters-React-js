@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.block{
+    height: 800px;
+    background-color: aliceblue;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.head{
+    font-size: 1.75rem;
+    list-style: none;
+    font-weight: 900;
+    font-family: 'Leckerli One', cursive;
+    padding-left: 10px;
+    padding-top: 50px;
+    color: #3800a2;
+}
+.headingmain{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.head1{
+    list-style: none;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: bold;
+}
+.head2{
+    list-style: none;
+    font-size: 45px;
+    font-weight: 700;
+}
+.heading{
+    padding-top: 80px;
+}
+.cardmain{
+    display: flex;
+    padding-left: 70px;
+}
+.cardnewmain{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 70px;
+}
+.card1{
+    padding-top: 0px;
+    height: 140px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: white;
+}
+.card2{
+    padding-top: 0px;
+    margin-left: 30px;
+    height: 140px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: white;
+}
+.card1 img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card2 img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
